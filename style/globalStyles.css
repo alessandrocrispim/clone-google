@@ -4,7 +4,7 @@
     --color-white: #fff;
     --color-gray: #f2f2f2;
     --color-gray-light: #f8f9fa;
-    --color-text-light: #70757a;
+    --color-text-light: #bac1c7;
     --color-dark: #222;
     
 }
@@ -15,6 +15,12 @@
     outline: 0;
     box-sizing: border-box;
     
+}
+
+label, span {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -32,8 +38,12 @@ a {
     color: var(--color-dark);
 }
 
+
+
+
 .content-center {
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
